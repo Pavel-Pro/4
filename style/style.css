@@ -1,0 +1,298 @@
+@font-face {
+	font-family: OpenSans;
+	src: url(font/OpenSans-Regular.ttf);
+	src: url(font/OpenSans-Bold.ttf);
+}
+@font-face {
+	font-family: Montserrat;
+	src: url(font/Montserrat-Black.ttf);
+	src: url(font/Montserrat-Bold.ttf);
+	src: url(font/Montserrat-Regular.ttf);
+}
+
+.page {
+	font-family: OpenSans, sans-serif;
+	background-color: rgb(255, 255, 255);
+}
+a {
+	text-decoration: none;
+}
+button, button:active, button:focus {
+  outline: none;
+  border: none;
+}
+/*Hesder*/
+.header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	max-width: 935px;
+	margin: 0 auto;
+}
+.header__wrap {
+	display: flex;
+	width: 100%;
+}
+.wrapper {
+	max-width: 935px;
+	margin: 0 auto;
+	width: 100%; 
+}
+.nav {
+	list-style: none;
+	display: flex;
+	margin-left: 125px;
+	margin-top: 27px;
+}
+.nav__list {
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	margin-left: 200px;
+}
+.logo {
+	width: 140px;
+	height: 75px;
+	font-family: Domine, serif;
+	padding-top: 42px;
+	padding-left: 14px;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(250, 92, 101);
+	border-radius: 0 0 10px 10px;
+}
+.logo__point {
+	color: rgb(49, 74, 91);
+	font-weight: 700;
+}
+.nav__link {
+	text-transform: uppercase;
+	color: rgb();
+}
+.nav__item {
+	margin-right: 38px;
+}
+.nav__item:last-child {
+	margin-right: 33px;
+}
+.nav__link {
+	font-size: 14px;
+	font-family: Montserrat, sans-serif;
+	color: rgb(58, 72, 81);
+	display: block;
+	text-align: center;
+}
+.nav__link:hover {
+	color: rgb(250, 92, 101);
+}
+.social {
+	display: flex;
+	margin-left: 0px;
+}
+.social__link:first-child {
+	padding-right: 10px;
+}
+.social .fab {
+	padding-right: 14px;
+	font-size: 19px;
+}
+.social__link {
+	color: rgb(250, 92, 101);
+}
+.social__link:hover {
+	color: rgb(250, 92, 101, 0.5);
+}
+.banner {
+	background: url(../img/banner.png) no-repeat top center;
+	position: relative;
+	height: 1060px;
+	display: flex;
+}
+.slogan {
+	margin-top: 375px;
+}
+.slogan__h1 {
+	font-family: Montserrat, sans-serif;
+	font-size: 44px;
+	color: rgb(49, 74, 91);
+	font-weight: 650;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+.banner__point {
+	color: rgb(250, 92, 101);
+	font-family: Montserrat, sans-serif;
+	font-weight: 650;
+}
+.slogan__p {
+	margin-top: 22px;
+	font-size: 21px;
+	line-height: 25px;
+	color: rgb(49, 74, 91);
+}
+.banner__button {
+	margin-top: 39px;
+	height: 65px;
+	width: 171px;
+	background-color: rgb(250, 92, 101);
+	border-radius: 9%;
+}
+.bunner__button-link {
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+}
+.about-info {
+	margin-top: 80px;
+	margin-bottom: 55px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.about-info__item {
+	width: 275px;
+	margin-right: 60px;
+}
+.about-info__item:last-child {
+	margin-right: 40px;
+}
+.about-info__tittle {
+    font-size: 24px;
+    font-weight: 650;
+    color: rgb(70, 80, 101);
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+.about-info__item-text {
+color: rgb(154, 160, 171);
+    font-size: 16px;
+    line-height: 22px;
+    font-family: OpenSans, sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+	
+}
+.btn {
+	color: rgb(250, 92, 101);
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: Montserrat, sans-serif;
+}
+.point {
+	color: rgb(250, 92, 101);
+}
+.about-info__item-btn .fas {
+	font-weight: 600;
+}
+.portfolio-block {
+	display: flex;
+}
+.portfolio__item {
+	margin-top: 58px;
+    margin-left: 55px;
+    width: 360px;
+}
+.portfolio__tittle {
+    font-size: 38px;
+    color: rgb(49, 74, 91);
+    font-weight: 650;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: -1px;
+    margin-bottom: 7px;
+}
+.portfolio__about {
+	font-size: 16px;
+    color: rgb(49, 74, 91);
+    margin-bottom: 28px;
+}
+.portfolio__text {
+	font-size: 15px;
+    color: rgb(154, 160, 171);
+    margin-bottom: 40px;
+}
+/*Our Team*/
+.team {
+	margin-top: 37px;
+}
+.team__tittle {
+	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	font-size: 32px;
+	color: rgb(49, 74, 91);
+	font-weight: 650;
+	margin-bottom: 10px;
+}
+.team__text {
+	color: rgb(154, 160, 171);
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.ourteam {
+	display: flex;
+	justify-content: space-between;
+}
+.ourteam__item {
+	display: flex;
+	margin-bottom: 125px;
+}
+.ourteam__item {
+	width: 300px;
+}
+.ourteam__item-text {
+	margin-left: 20px;
+}
+.ourteam__person {
+	color: rgb(49, 74, 91);
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 650;
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.ourteam__job {
+	color: rgb(250, 92, 101);
+	font-size: 14px;
+	margin-bottom: 15px;
+	font-weight: 550;
+}
+.ourteam__hobby {
+	color: rgb(177, 181, 190);
+	font-size: 14px;
+	line-height: 20px;
+}
+.footer {
+	height: 100px;
+}
+.line {
+	height: 1px;
+	width: 100%;
+	background-color: rgb(230, 234, 237);
+}
+.footer__item {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.footer__social-link {
+	color: rgb(185, 192, 198);
+	font-size: 18px;
+}
+.footer__social-link:hover {
+	color: rgb(250, 92, 101);
+}
+.footer__social-link .fab {
+	margin-right: 18px;
+}
+.copyright {
+	font-size: 13px;
+	color: rgb(185, 192, 198);
+}
