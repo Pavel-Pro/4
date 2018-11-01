@@ -106,6 +106,7 @@ button, button:active, button:focus {
 }
 .banner {
 	background: url(../img/banner.png) no-repeat top center;
+	background-size: 100%;
 	position: relative;
 	height: 1060px;
 	display: flex;
